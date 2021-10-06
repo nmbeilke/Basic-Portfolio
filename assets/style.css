@@ -1,0 +1,331 @@
+    :root {
+
+        --accent-color: #d15b17;
+        --duration: .1s;
+    }
+    html {
+
+        color: black;
+        font-size: 18px;
+        line-height: 1;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    body {
+        overflow-x:hidden;
+    }
+
+    main {
+        margin: 100px 10%
+    }
+
+    h1 {
+        font-size: 75%;
+    }
+
+    h3 {
+        text-align: right;
+    }
+    
+/* -------------------------header-------------------------------- */
+    header {
+        background: var(--accent-color); 
+        width: auto ; 
+    }
+    .menu {
+    
+        display: flex;
+        flex: 100%;
+        flex-direction: row;
+        height: 80px;
+        position: relative;
+        top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+    
+    }
+
+    #links {
+        display: flex;
+        flex: 50%;
+        justify-content: flex-end;
+        color: white;
+        font-size: 1.3rem;
+        padding-bottom: 5px;
+    }
+    #links ul {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        min-width: 150px;
+    }
+    #links li {
+        padding: 0% 5%;
+    }
+    #links a {
+        text-decoration: none;
+        color: white;
+        transition-duration: var(--duration);
+        padding: 0px 25px;
+        font-weight: 700;
+    }
+    #links a:hover {
+        transition-duration: var(--duration);
+        cursor: pointer;
+        color: var(--accent-color);
+        border-radius: 25px;
+    }
+    #links a:hover {
+        transition-duration: var(--duration);
+        color: black;
+    }
+
+/* -------------------------hero section-------------------------------- */
+
+
+    .hero {
+        position:relative;
+        left: -170px;
+        top: -110px;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .subhead {
+        background-color: var(--accent-color);
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        top: -250px;
+        left: 175px;
+        text-align: center;
+        color: white
+
+    }
+
+    .banner-image {
+        max-width: auto;
+        max-height: auto;  
+        position: relative;
+    }
+
+/* -------------------------bio section-------------------------------- */
+
+   
+    #about {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        position: relative;
+        right: 1px;
+        top: -200px;
+    
+    }
+    #headshot {
+        max-height: 200px;
+        position: relative;
+        left: 200px;
+        top: -200px
+    }
+    #name {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: white;
+        min-width: 150px;
+        flex: 50%;
+        padding-left: 2%;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+    .content {
+        line-height: 200%;
+    }
+
+ /* -----------------------------left column--------------------------- */
+    
+    .card {
+        display: flex;
+        width: 100%;
+        padding-top: 50px;
+        min-height: 200px;
+    }
+    
+    .leftcolumn {
+        position: relative;
+        right: 85px;
+        width: 30%;
+        font-size: 2.8em;
+        font-weight: 900;
+        display:flex;
+        justify-content: right;
+        align-items: center;
+        border-right: 5px;
+        border-color: var(--accent-color);
+        border-style: solid;
+        padding-right: 20px;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        padding-left: 50px;
+    
+    }
+
+   h3#about.leftcolumn {
+       height: 250px;
+   } 
+    
+   h3#contact.leftcolumn {
+       height: 150px;
+   }
+    
+/* -------------------------projects gallery------------------------------ */
+    
+    #featured {
+        position: relative;
+        display: flex;
+        flex: 1 1 100%;
+        align-items: center;
+        justify-content: center;
+        margin: .5%;
+        height: 300px;
+        width: 400px;
+       
+    
+    }
+    .thumbnail {
+        display: flex;
+        flex: 1 1 40%;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border: solid var(--accent-color) 5px;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .thumbnail:hover {
+        opacity: 75%;
+    
+    }
+
+    #tile-1 {
+        height:250%;
+        width:250%;
+    
+    }
+
+    .project-1-title {
+        position: absolute;    
+        height:25%;
+        text-align: center;    
+        width: 25%;
+        background-color: var(--accent-color);
+        top: 225px;
+    }
+
+    .project-1-title:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    h4 {
+        display: inline-block;
+        font-size: 20px; 
+        color: #FFF;  
+    }
+
+    .project-title {
+        background-color: var(--accent-color);
+        color: white;
+    }
+
+/* ---------------------contact section---------------------------------- */
+    
+    .contact-me>* {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        height: 50%;
+        color: black;
+        position: relative;
+        top:25px;
+    
+    }
+    a:link {
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    .contact-me a:hover {
+        color: var(--accent-color);
+    }
+    
+    /* ---------------------footer------------------------------- */
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        font-size: 10pt;
+    }
+    
+    /* ---------------------Media screens-------------------------- */
+    
+    @media  screen and (max-width: 769px) {
+    
+        h1 {
+            font-size: 50%;
+        }
+
+        #links {
+            display: flex;
+            justify-content: flex-end;
+            color: var(--backgroundstart);
+            font-size: 1rem;
+            padding-bottom: 10px;
+        }
+        #links a {
+            padding: 0px 
+        }
+        .leftcolumn {
+            font-size: 2rem;
+            padding: 0% 3%;
+            margin: 10px;
+        }
+        #profile {
+            justify-content: space-between;
+            font-size: .8rem;
+        }
+
+        .content {
+            right: 50pt;
+        }
+
+        section {
+            padding-right: 3%;
+            padding-left: 3%;
+        }
+
+       
+    
+        
+    }
