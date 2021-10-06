@@ -27,9 +27,12 @@ This allows me to update project images, links and titles with the most relevant
 
 - **What did you learn?**
 I learned how to handle multiple column layouts and flexbox.
+
+- **What challenges did you encounter?**
+Had trouble with making all evements responsive and display in an ideal way. Couldn't figure out how to make cards display over 4 other images in the project section. Hope to update soon.
   
 ## Link
-View the live page here: https://nmbeilke.github.io/Homework-Code-Refactor/
+View the live page here: https://nmbeilke.github.io/Homework-Portfolio/
 
 ## Credits
 Image credits for banner image and project placeholders: https://www.freepik.com/vectors/cover
