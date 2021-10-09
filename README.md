@@ -32,7 +32,7 @@ I learned how to handle multiple column layouts and flexbox.
 Had trouble with making all evements responsive and display in an ideal way. Couldn't figure out how to make cards display over 4 other images in the project section. Hope to update soon.
   
 ## Link
-View the live page here: https://nmbeilke.github.io/Homework-Portfolio/
+![Screenshot of live portfolio site](https://raw.githubusercontent.com/nmbeilke/Homework-Portfolio/main/assets/images/Screen%20Shot%202021-10-09%20at%2010.52.51%20AM.png)
 
 ## Credits
 Image credits for banner image and project placeholders: https://www.freepik.com/vectors/cover
