@@ -3,134 +3,200 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style-new.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Nicole Beilke | Full Stack Developer Student</title>
    
     <body>
 
-<!---------------- Start header/nav section --------------------->   
-        <header class="menu">
-            <div id="name"><h1>Nicole Beilke</h1></div>
-    
-    
-            <nav id="links">
-                <ul>
-                    <li><a class="links" href="#about" alt="Jumps to the about section">About</a></li>
-                    <li><a class="links" href="#projects" alt="Jumps to the work section.">Work</a></li>
-                    <li><a class="links" href="https://2f974e21-30c4-422d-b788-707bf1767166.filesusr.com/ugd/e98c72_b69b15194463490daf0b29554b873fb8.pdf" alt="Opens resume in new tab" target="_blank">Resume</a></li>
-                    <li><a class="links" href="#contact" alt="Jumps to the contact me section.">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+<!---------------- Nav section --------------------->   
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nicole Beilke</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://2f974e21-30c4-422d-b788-707bf1767166.filesusr.com/ugd/e98c72_b69b15194463490daf0b29554b873fb8.pdf" alt="Opens resume in new tab" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<!---------------- Start main section and hero section --------------------->   
- 
-        <main>
-            <div class= "hero">
-                <img class="banner-image" src="./assets/images/hero.png" >
-                <div class="subhead">
-                    <h2>Writer, Marketer and Web Development Student</h2>
-                </div>
-            </div>
-    
-    
-            <div class="card">
-                <h3 class="leftcolumn" id="about">
-                    About<br>Nicole
-                </h3>
-    
-                <div id="about">
-                </div>
-                <img id = "headshot" src="./assets/images/headshot-NB.JPG" alt="Nicole Beilke headshot at Radio Milwaukee.">
-                    <div class="content">
-                        <p>
-                            Nicole is writer, marketer, creative and surfer living in San Diego, CA. With a journalism background, she is a design-minded storyteller with several years of experience working on content within a broad range of industries like B2B SaaS, radio, tourism and news media. She enjoys problem solving, strategizing and collaborating to use copy, photography, video, audio, and graphics as strategic forms to follow function.
-                            <br><br>Currently she is pursuing a part-time web development program while leading marketing at <a href="https://revelboards.com" target="_blank">Revel Boards</a>, a D2C eCommerce and tech company offering the most versaitle electric skateboard conversion kit. In the future, she plans to combine her interests in content, tech and web development within surf and skate industry.<br><br>
-                        </p>
-                    </div>
-            </div>
-    
-<!---------------- Project gallery --------------------->
-    
-            <div class="card">
-                <h3 class="leftcolumn" id="projects">My<br>Work</h3>
-                <section>
-                    <div id="featured" class="thumbnail">
-                        <div id="project-1">
-                            <div class="project-1-title">
-                                <h4>Git Cooking!</h4>
-                            </div>
-                            <a href="https://github.com/nmbeilke/Git-Cooking/" target="_blank">
-                            <img id="tile-1" src="./assets/images/Project1.png" >
-                            </a>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="other-tiles">
-                            <a href="https://github.com/nmbeilke/Homework-Password-Generator/" target="_blank">
-                                <img class="tiles" src="./assets/images/Project2.png" >
-                                </a>
-                            <div class="project-title">
-                                <h5>Password Generator</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="other-tiles">
-                            <a href="https://github.com/nmbeilke/Homework-Weather-Dashboard/" target="_blank">
-                            <img class="tiles" src="./assets/images/Project3.png" >
-                            </a>
-                         <div class="project-tile">
-                            <h5>Weather Dashboard</h5>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="other-tiles">
-                            <a href="https://github.com/nmbeilke/Homework-Code-Refactor/" target="_blank">
-                            <img class="tiles" src="./assets/images/Project4.png" >
-                            </a>
-                            <div class="project-title">
-                                <h5>Project 4</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="other-tiles">
-                            <a href="https://github.com/nmbeilke/Homework-Code-Refactor/" target="_blank">
-                            <img class="tiles" src="./assets/images/Project5.png" >
-                            </a>
-                            <div class="project-title">
-                                <h5>Project 5</h5>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-   
- <!---------------- contact section --------------------->
-    
-            <div class="card">
-                <h3 class="leftcolumn">Contact Me</h3>
-                <section class="contact-me">
-                    <div class="content" id="contact">
-                    
-                        <a href="tel:630-512-7272">630-512-7272</a>
+<!---------------- Hero section --------------------->   
+<div style="background-image: url(./assets/images/hero.png) !important" class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div style="background-color: #d15b17;" class="container-md">
+      <h1 style="color: white;" class="h1 text-center">Writer, Marketer and Web Development Student</h1>
+        </div>
+    </div>
+  </div>
 
-                        <a href="mailto:nicole@gmail.com" target="_blank"
-                            rel="noopener noreferrer">nmbeilke@gmail.com</a>
-    
-                        <a href="https://github.com/nmbeilke" target="_blank">GitHub</a>
-    
-                        <a href="https://www.linkedin.com/in/nicole-beilke-517b88b7/" target="_blank"
-                            rel=>LinkedIn</a>
-                        </div>
-                </section>
+
+ <!---------------- About section --------------------->   
+
+
+<div class="container">
+  <div class="row">
+    <div style= "border-right: 5px;
+    border-color: #d15b17;
+    border-style: solid;
+    padding-right: 20px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none
+     !important" class="col-3">
+      <h2 id="about">About</h2>
+    </div>
+    <div class="col-1">
+
+    </div>
+    <div class="col-8">
+        <img src="./assets/images/headshot-NB.JPG" class="w-50 p-2" alt="...">
+        <p>Nicole is writer, marketer, creative and surfer living in San Diego, CA. With a journalism background, she is a design-minded storyteller with several years of experience working on content within a broad range of industries like B2B SaaS, radio, tourism and news media. She enjoys problem solving, strategizing and collaborating to use copy, photography, video, audio, and graphics as strategic forms to follow function.
+        <br>
+        <br>
+        Currently she is pursuing a part-time web development program while leading marketing at Revel Boards, a D2C eCommerce and tech company offering the most versaitle electric skateboard conversion kit.</p>
+    </div>
+    </div>
+</div>
+
+<!---------------- Padding ---------------------> 
+
+  <div class = "container p-5"></div>
+
+
+<!---------------- Projects section --------------------->
+
+<div class="container">
+    <div class="row">
+      <div style= "border-right: 5px;
+      border-color: #d15b17;
+      border-style: solid;
+      padding-right: 20px;
+      border-top: none;
+      border-bottom: none;
+      border-left: none
+       !important" class="col-3">
+        <h2 id="projects">My Work</h2>
+      </div>
+      <div class="col-1">
+  
+    </div>
+      <div class="col-8">
+        <div class="card mb-3">
+            <img src="./assets/images/Project1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Git Cooking!</h5>
+              <p class="card-text">An app that uses the Edamam and Drink DB APIs to generate recipe and playlist pairings. Created as a group project for UCSD Extension full stack bootcamp.</p>
+              <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small></p>
+              <a href="https://github.com/nmbeilke/Git-Cooking" class="stretched-link" target="_blank"></a>
             </div>
+      </div>
+      <div class="col-12">
+        <div class="row">
+            <div class="col-sm-6 p-2">
+              <div class="card">
+                <img src="./assets/images/Project2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Password Generator</h5>
+                  <p class="card-text">An application that enables users to generate random passwords based on criteria that they’ve selected.</p>
+                  <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small></p>
+                  <a href="https://github.com/nmbeilke/Homework-Password-Generator" class="stretched-link" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 p-2">
+                <img src="./assets/images/Project3.png" class="card-img-top" alt="...">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <p class="card-text">Application that retrieves weather data and a forecast for cities using data from the OpenWeather One Call API.</p>
+                  <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small></p>
+                  <a href="https://github.com/nmbeilke/Homework-Weather-Dashboard" class="stretched-link" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class = "row">
+            <div class="col-sm-6 p-2">
+                <div class="card">
+                  <img src="./assets/images/Project4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Read Me Generator</h5>
+                    <p class="card-text">A command line app that can quickly intake information about a project and easily create a README file.</p>
+                    <p class="card-text"><small class="text-muted">Javascript, Node.js</small></p>
+                    <a href="https://github.com/nmbeilke/Homework-ReadMe-Generator" class="stretched-link" target="_blank"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 p-2">
+                <div class="card">
+                  <img src="./assets/images/Project5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Code Quiz</h5>
+                    <p class="card-text"> An interactive, timed quiz application that allows a user to try to get on a leaderboard.</p>
+                    <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small></p>
+                    <a href="https://github.com/nmbeilke/Homework-Code-Quiz" class="stretched-link" target="_blank"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</div>
+
+<!---------------- Padding ---------------------> 
+
+<div class = "container p-5"></div>
+<!---------------- Contact section --------------------->
+
+<div class="container">
+    <div class="row">
+      <div style= "border-right: 5px;
+      border-color: #d15b17;
+      border-style: solid;
+      padding-right: 20px;
+      border-top: none;
+      border-bottom: none;
+      border-left: none
+       !important" class="col-3">
+        <h2 id="contact">Get In Touch</h2>
+      </div>
+      <div class="col-1">
     
-            <footer> Nicole Beilke 2021</footer>
-        </main>
-    
-    </body>
-    
-    </html>
+      </div>
+      <div class="col-8">
+        <nav class="nav">
+            <a style="color: black !important" class="nav-link active">630-512-7272</a>
+            <a style="color: black !important" class="nav-link" href="mailto:nmbeilke@gmail.com">nmbeilke@gmail.com</a>
+            <a style="color: black !important" class="nav-link" href="https://github.com/nmbeilke/" target="_blank">Github</a>
+            <a style="color: black !important" class="nav-link" href="https://www.linkedin.com/in/nicole-beilke-517b88b7/" target="_blank">LinkedIn</a>
+          </nav>
+      </div>
+      </div>
+  </div>
+
+<!---------------- Padding ---------------------> 
+<div class = "container p-2"></div>
+
+<!---------------- Footer ---------------------> 
+    <footer style= "color:grey" class="text-center"> Nicole Beilke 2021</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
